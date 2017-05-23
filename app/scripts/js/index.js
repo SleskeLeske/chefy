@@ -1,3 +1,11 @@
-const css = require('../css/index.css');
+var  mn = $("nav");
+    mns = "fixed";
+    hdr = $('header').height();
 
-console.log('IT WORKS');
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});

@@ -18,6 +18,33 @@
         width: 60px;
         color:black;
     }
+    .logo {
+        position: fixed;
+        -webkit-transform: translateZ(100000);
+        max-height:40px;
+        margin: {
+            right:auto;
+            left:auto;
+
+
+        }
+        h1 {
+            color:#fff;
+
+            font: {
+                family:'Just Another Hand', cursive;
+                size:50px;
+            }
+            text-align: center;
+            img {
+                height:40px;
+                z-index: 1000;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+@import "vendor/bourbon/bourbon";
 
 @import 'base/color';
 @import 'base/typography';
