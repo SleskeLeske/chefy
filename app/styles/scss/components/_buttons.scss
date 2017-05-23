@@ -1,20 +1,22 @@
 .button {
-  width:50px;
-  height:30px;
-  border: 2px solid white;
-  padding: {
+  max-width: 140px;
+  padding:10px 20px;
+  border: 3px solid white;
+  max-height:80px;
+  margin: {
     top:10px;
-    bottom:10px;
-    left:20px;
-    right:20px;
-    text-decoration: none;
+    left:auto;
+    right:auto;
   }
-  font-weight: bold;
-  color:$orange;
-  transition: 0.1s all;
+  transition: 0.2s all;
+  font: {
+    weight: bold;
+    family: 'Oswald', helvetica;
+    size: 17px;
+  }
+  letter-spacing: 0.05em;
     &:hover {
       background-color: white;
-      color:$orange;
+      color: $orange;
     }
-
 }
