@@ -42,5 +42,10 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower-path": "^1.0.1",
+    "grunt": "^1.0.1"
   }
 }

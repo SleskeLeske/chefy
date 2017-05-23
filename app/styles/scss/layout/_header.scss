@@ -1,5 +1,35 @@
 header {
-  background-image: url('../../img/header1.jpeg');
-  min-height: 300px;
+  background-image: url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 735px;
+  width:100%;
+  margin: 0;
+  border: 0;
+  padding:0;
+  position: relative;
+    .header-content {
+
+        .header-content-inner {
+          position: absolute;
+          bottom:30%;
+          h1 {
+            padding: {
+              top: 5px;
+              bottom:5px;
+              right:15px;
+              left: 5px;
+            }
+            font: {
+              size: 60px;
+              family: 'Oswald', sans-serif;
+            }
+            letter-spacing: 0.01em;
+            color: $orange;
+            background-color: transparentize(black, 0.5);
+          }
+        }
+    }
 
 }

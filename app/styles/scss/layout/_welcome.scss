@@ -1,0 +1,31 @@
+.welcome {
+  background-color: $orange;
+  .welcome {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+  }
+  .welcome2 {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    font-size: 60px;
+    color:white;
+  }
+  .welcome3 {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    font-size: 70px;
+    color:white;
+  }
+  .welcomebutton {
+    text-align: center;
+    @extend .button;
+    color:white;
+
+    margin: {
+      left:auto;
+      right:auto;
+    }
+  }
+}

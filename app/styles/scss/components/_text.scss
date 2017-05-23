@@ -1,0 +1,29 @@
+.title {
+  margin: {
+    left:auto;
+    right:auto;
+  }
+  padding: {
+    top:10px;
+    bottom:10px;
+  }
+  text-align: center;
+  font: {
+    size: 30px;
+    family: 'Oswald', sans-serif;
+  }
+  color: darken($orange, 0.4);
+}
+
+.desc {
+  margin: {
+    left:auto;
+    right:auto;
+  }
+  text-align: center;
+  font: {
+    size: 15px;
+    family: 'Oswald', sans-serif;
+  }
+  color: darken($orange, 0.4);
+}
