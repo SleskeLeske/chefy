@@ -9,14 +9,16 @@
   width: 100%;
 
         .button-bar {
-          width: 100%;
           min-height: 60px;
           background-color: transparentize(white, 0.15);
 
           .container {
-
+            .about-button{
+              @extend .button;
+            }
           }
          }
+
 
 
 
